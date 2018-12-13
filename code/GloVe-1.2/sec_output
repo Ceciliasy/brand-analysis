@@ -1,0 +1,253 @@
+1994
+1994
+94
+/media/sonata/MyBook/sec_corpus/1994/94_corpus.txt
+*********vocabcount_1031_18:34:54
+build new vocabulary
+*********coocur1031_18:35:17
+*********shuffle_1031_18:35:57
+*********glovetrain_1031_18:36:00
+*********evaluate_1031_18:50:10
+1995
+1995
+95
+/media/sonata/MyBook/sec_corpus/1995/95_corpus.txt
+*********vocabcount_1031_18:50:14
+existed vocabulary
+*********coocur1031_18:50:14
+*********shuffle_1031_18:51:18
+*********glovetrain_1031_18:51:23
+*********evaluate_1031_19:10:13
+1996
+1996
+96
+/media/sonata/MyBook/sec_corpus/1996/96_corpus.txt
+*********vocabcount_1031_19:10:18
+build new vocabulary
+*********coocur1031_19:11:06
+*********shuffle_1031_19:12:33
+*********glovetrain_1031_19:12:39
+*********evaluate_1031_19:40:43
+1997
+1997
+97
+/media/sonata/MyBook/sec_corpus/1997/97_corpus.txt
+*********vocabcount_1031_19:40:49
+build new vocabulary
+*********coocur1031_19:41:44
+*********shuffle_1031_19:43:35
+*********glovetrain_1031_19:43:41
+*********evaluate_1031_20:17:04
+1998
+1998
+98
+/media/sonata/MyBook/sec_corpus/1998/98_corpus.txt
+*********vocabcount_1031_20:17:12
+build new vocabulary
+*********coocur1031_20:18:17
+*********shuffle_1031_20:20:27
+*********glovetrain_1031_20:20:35
+*********evaluate_1031_20:59:34
+1999
+1999
+99
+/media/sonata/MyBook/sec_corpus/1999/99_corpus.txt
+*********vocabcount_1031_20:59:42
+build new vocabulary
+*********coocur1031_21:00:25
+*********shuffle_1031_21:02:19
+*********glovetrain_1031_21:02:26
+*********evaluate_1031_21:40:13
+2000
+2000
+00
+/media/sonata/MyBook/sec_corpus/2000/00_corpus.txt
+*********vocabcount_1031_21:40:22
+build new vocabulary
+*********coocur1031_21:41:02
+*********shuffle_1031_21:42:49
+*********glovetrain_1031_21:42:56
+*********evaluate_1031_22:22:06
+2001
+2001
+01
+/media/sonata/MyBook/sec_corpus/2001/01_corpus.txt
+*********vocabcount_1031_22:22:15
+build new vocabulary
+*********coocur1031_22:23:08
+*********shuffle_1031_22:25:17
+*********glovetrain_1031_22:25:25
+*********evaluate_1031_23:14:11
+2002
+2002
+02
+/media/sonata/MyBook/sec_corpus/2002/02_corpus.txt
+*********vocabcount_1031_23:14:22
+build new vocabulary
+*********coocur1031_23:15:11
+*********shuffle_1031_23:17:31
+*********glovetrain_1031_23:17:41
+*********evaluate_1101_00:15:07
+capital-common-countries.txt:
+ACCURACY TOP1: 0.00% (0/6)
+capital-world.txt:
+ACCURACY TOP1: 0.00% (0/2)
+currency.txt:
+ACCURACY TOP1: 0.00% (0/6)
+2003
+2003
+03
+/media/sonata/MyBook/sec_corpus/2003/03_corpus.txt
+*********vocabcount_1101_00:15:21
+build new vocabulary
+*********coocur1101_00:16:18
+*********shuffle_1101_00:19:01
+*********glovetrain_1101_00:19:13
+*********evaluate_1101_01:28:19
+2004
+2004
+04
+/media/sonata/MyBook/sec_corpus/2004/04_corpus.txt
+*********vocabcount_1101_01:28:37
+build new vocabulary
+*********coocur1101_01:29:52
+*********shuffle_1101_01:33:22
+*********glovetrain_1101_01:33:36
+*********evaluate_1101_02:53:36
+2005
+2005
+05
+/media/sonata/MyBook/sec_corpus/2005/05_corpus.txt
+*********vocabcount_1101_02:53:56
+build new vocabulary
+*********coocur1101_02:55:48
+*********shuffle_1101_03:00:45
+*********glovetrain_1101_03:01:02
+*********evaluate_1101_04:38:56
+2006
+2006
+06
+/media/sonata/MyBook/sec_corpus/2006/06_corpus.txt
+*********vocabcount_1101_04:39:24
+build new vocabulary
+*********coocur1101_04:41:03
+*********shuffle_1101_04:45:28
+*********glovetrain_1101_04:45:45
+*********evaluate_1101_06:20:52
+2007
+2007
+07
+/media/sonata/MyBook/sec_corpus/2007/07_corpus.txt
+*********vocabcount_1101_06:21:21
+build new vocabulary
+*********coocur1101_06:22:59
+*********shuffle_1101_06:27:32
+*********glovetrain_1101_06:27:49
+*********evaluate_1101_08:01:39
+2008
+2008
+08
+/media/sonata/MyBook/sec_corpus/2008/08_corpus.txt
+*********vocabcount_1101_08:02:09
+build new vocabulary
+*********coocur1101_08:03:29
+*********shuffle_1101_08:07:10
+*********glovetrain_1101_08:07:26
+*********evaluate_1101_09:35:11
+2009
+2009
+09
+/media/sonata/MyBook/sec_corpus/2009/09_corpus.txt
+*********vocabcount_1101_09:35:40
+build new vocabulary
+*********coocur1101_09:37:12
+*********shuffle_1101_09:41:21
+*********glovetrain_1101_09:41:38
+*********evaluate_1101_11:13:26
+2010
+2010
+10
+/media/sonata/MyBook/sec_corpus/2010/10_corpus.txt
+*********vocabcount_1101_11:13:56
+build new vocabulary
+*********coocur1101_11:15:20
+*********shuffle_1101_11:19:15
+*********glovetrain_1101_11:19:30
+*********evaluate_1101_12:46:28
+2011
+2011
+11
+/media/sonata/MyBook/sec_corpus/2011/11_corpus.txt
+*********vocabcount_1101_12:46:57
+build new vocabulary
+*********coocur1101_12:48:04
+*********shuffle_1101_12:51:03
+*********glovetrain_1101_12:51:16
+*********evaluate_1101_14:08:16
+2012
+2012
+12
+/media/sonata/MyBook/sec_corpus/2012/12_corpus.txt
+*********vocabcount_1101_14:08:43
+build new vocabulary
+*********coocur1101_14:09:41
+*********shuffle_1101_14:12:21
+*********glovetrain_1101_14:12:35
+*********evaluate_1101_15:32:08
+2013
+2013
+13
+/media/sonata/MyBook/sec_corpus/2013/13_corpus.txt
+*********vocabcount_1101_15:32:38
+build new vocabulary
+*********coocur1101_15:33:24
+*********shuffle_1101_15:35:33
+*********glovetrain_1101_15:35:48
+*********evaluate_1101_17:03:14
+2014
+2014
+14
+/media/sonata/MyBook/sec_corpus/2014/14_corpus.txt
+*********vocabcount_1101_17:03:48
+build new vocabulary
+*********coocur1101_17:04:21
+*********shuffle_1101_17:05:54
+*********glovetrain_1101_17:06:06
+*********evaluate_1101_18:10:32
+2015
+2015
+15
+/media/sonata/MyBook/sec_corpus/2015/15_corpus.txt
+*********vocabcount_1101_18:11:03
+build new vocabulary
+*********coocur1101_18:15:43
+*********shuffle_1101_18:29:51
+*********glovetrain_1101_18:31:47
+2016
+2016
+16
+/media/sonata/MyBook/sec_corpus/2016/16_corpus.txt
+*********vocabcount_1101_18:31:49
+build new vocabulary
+*********coocur1101_18:55:34
+*********shuffle_1101_19:36:15
+*********glovetrain_1101_19:42:29
+2017
+2017
+17
+/media/sonata/MyBook/sec_corpus/2017/17_corpus.txt
+*********vocabcount_1101_19:42:33
+build new vocabulary
+*********coocur1101_20:04:42
+*********shuffle_1101_20:18:49
+*********glovetrain_1101_20:21:21
+2018
+2018
+18
+/media/sonata/MyBook/sec_corpus/2018/18_corpus.txt
+*********vocabcount_1101_20:23:43
+build new vocabulary
+*********coocur1101_20:34:09
+*********shuffle_1101_20:37:55
+*********glovetrain_1101_20:39:13
+*********evaluate_1102_04:16:56

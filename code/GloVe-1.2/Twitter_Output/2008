@@ -1,0 +1,348 @@
+
+
+
+sonata@sonata-desktop:~/Downloads/Embedding/code/GloVe-1.2$ bash Twitter_s3.sh 2008 3
+2008
+VOCAB_MIN_COUNT3
+*********vocabcount_1114_00:21:31
+build new vocabulary
+BUILDING VOCABULARY
+Processed 889323341 tokens.
+Counted 10575414 unique words.
+Truncating vocabulary at min count 3.
+Using vocabulary of size 2902227.
+
+*********coocur1114_00:23:55
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 92514853
+overflow length: 285212672
+Reading vocab from file "/mnt/HDD/2008/vocab_new_2008.txt"...loaded 2902227 words.
+Building lookup table...table contains 1146054259 elements.
+Processed 889323341 tokens.
+Writing cooccurrences to disk............5 files in total.
+Merging cooccurrence files: processed 827727579 lines.
+
+*********shuffle_1114_00:35:22
+SHUFFLING COOCCURRENCES
+array size: 1912602624
+Shuffling by chunks: processed 827727579 lines.
+Wrote 1 temporary file(s).
+Merging temp files: processed 827727579 lines.
+
+*********glovetrain_1114_00:40:50
+TRAINING MODEL
+Read 827727579 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 2902227
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.092308
+iter: 002, cost: 0.070567
+iter: 003, cost: 0.060479
+iter: 004, cost: 0.054193
+iter: 005, cost: 0.050072
+iter: 006, cost: 0.047195
+iter: 007, cost: 0.045062
+iter: 008, cost: 0.043407
+iter: 009, cost: 0.042093
+iter: 010, cost: 0.040976
+iter: 011, cost: 0.040068
+iter: 012, cost: 0.039243
+iter: 013, cost: 0.038528
+iter: 014, cost: 0.037809
+iter: 015, cost: 0.037214
+*********evaluate_1114_02:23:19
+Traceback (most recent call last):
+  File "eval/python/evaluate.py", line 110, in <module>
+    main()
+  File "eval/python/evaluate.py", line 14, in main
+    for line in f:
+  File "/home/sonata/anaconda3/lib/python3.7/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+MemoryError
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+

@@ -1,0 +1,117 @@
+*********vocabcount_1025_08:34:55
+build new vocabulary
+BUILDING VOCABULARY
+Processed 3308221353 tokens.
+Counted 258997321 unique words.
+Truncating vocabulary at min count 50.
+Using vocabulary of size 1802731.
+
+*********coocur1025_11:24:16
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 178672084
+overflow length: 570425344
+Reading vocab from file "/mnt/HDD/2012/vocab_2012.txt"...Error, duplicate entry located: 469.
+loaded 1802731 words.
+Building lookup table...table contains 1929387367 elements.
+Processed 3308159257 tokens.
+Writing cooccurrences to disk...........9 files in total.
+Merging cooccurrence files: processed 2817833078 lines.
+
+*********shuffle_1025_12:11:13
+SHUFFLING COOCCURRENCES
+array size: 3825205248
+Shuffling by chunks: processed 0 lines.Twitter_2012.sh: line 67: 11488 Segmentation fault      (core dumped) $BUILDDIR/shuffle -memory $MEMORY -verbose $VERBOSE < $COOCCURRENCE_FILE > $COOCCURRENCE_SHUF_FILE
+
+B
+B
+
+
+
+
+*********vocabcount_1025_12:54:53
+existed vocabulary
+*********coocur1025_12:54:53
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 150252241
+overflow length: 475354453
+Reading vocab from file "/mnt/HDD/2012/vocab_2012.txt"...Error, duplicate entry located: 469.
+loaded 1802731 words.
+Building lookup table...table contains 1648236152 elements.
+Processed 3308159257 tokens.
+Writing cooccurrences to disk...........11 files in total.
+Merging cooccurrence files: processed 2817833078 lines.
+
+*********shuffle_1025_13:42:53
+SHUFFLING COOCCURRENCES
+array size: 3187671040
+Shuffling by chunks: processed 2817833078 lines.
+Wrote 1 temporary file(s).
+Merging temp files: processed 2817833078 lines.
+
+*********glovetrain_1025_14:06:10
+TRAINING MODEL
+Read 2817833078 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 1802731
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.088595
+iter: 002, cost: 0.065129
+iter: 003, cost: 0.055099
+iter: 004, cost: 0.049776
+iter: 005, cost: 0.046706
+iter: 006, cost: 0.044661
+iter: 007, cost: 0.043172
+
+
+iter: 008, cost: 0.042050                                                      
+iter: 009, cost: 0.041210
+iter: 010, cost: 0.040475
+iter: 011, cost: 0.039890
+iter: 012, cost: 0.039377
+iter: 013, cost: 0.038928
+iter: 014, cost: 0.038530
+iter: 015, cost: 0.038182
+*********evaluate_1025_19:54:57
+eval/python/evaluate.py:32: RuntimeWarning: divide by zero encountered in divide
+  W_norm = (W.T / d).T
+eval/python/evaluate.py:32: RuntimeWarning: invalid value encountered in divide
+  W_norm = (W.T / d).T
+capital-common-countries.txt:
+ACCURACY TOP1: 0.00% (0/420)
+capital-world.txt:
+ACCURACY TOP1: 0.00% (0/967)
+currency.txt:
+ACCURACY TOP1: 0.00% (0/596)
+city-in-state.txt:
+ACCURACY TOP1: 0.00% (0/2467)
+family.txt:
+ACCURACY TOP1: 0.00% (0/506)
+gram1-adjective-to-adverb.txt:
+ACCURACY TOP1: 0.00% (0/930)
+gram2-opposite.txt:
+ACCURACY TOP1: 0.00% (0/702)
+gram3-comparative.txt:
+ACCURACY TOP1: 0.00% (0/1332)
+gram4-superlative.txt:
+ACCURACY TOP1: 0.00% (0/1122)
+gram5-present-participle.txt:
+ACCURACY TOP1: 0.00% (0/1056)
+gram6-nationality-adjective.txt:
+ACCURACY TOP1: 0.00% (0/1229)
+gram7-past-tense.txt:
+ACCURACY TOP1: 0.00% (0/1560)
+gram8-plural.txt:
+ACCURACY TOP1: 0.00% (0/1332)
+gram9-plural-verbs.txt:
+ACCURACY TOP1: 0.00% (0/870)
+Questions seen/total: 77.21% (15089/19544)
+Semantic accuracy: 0.00%  (0/4956)
+Syntactic accuracy: 0.00%  (0/10133)
+Total accuracy: 0.00%  (0/15089)
+

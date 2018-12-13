@@ -1,0 +1,62 @@
+2012
+VOCAB_MIN_COUNT20
+*********vocabcount_1118_13:52:53
+build new vocabulary
+BUILDING VOCABULARY
+Processed 2751771249 tokens.
+Counted 77308510 unique words.
+Truncating vocabulary at min count 20.
+Using vocabulary of size 2908831.
+
+*********coocur1118_14:17:20
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 92514853
+overflow length: 285212672
+Reading vocab from file "/mnt/HDD/2012/vocab_new_2012.txt"...loaded 2908831 words.
+Building lookup table...table contains 1146463707 elements.
+Processed 2751771161 tokens.
+Writing cooccurrences to disk............15 files in total.
+Merging cooccurrence files: processed 2413211846 lines.
+
+*********shuffle_1118_14:55:21
+SHUFFLING COOCCURRENCES
+array size: 1912602624
+Shuffling by chunks: processed 2413211846 lines.
+Wrote 2 temporary file(s).
+Merging temp files: processed 2413211846 lines.
+
+*********glovetrain_1118_15:15:05
+TRAINING MODEL
+Read 2413211846 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 2908831
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.080032
+iter: 002, cost: 0.059371
+iter: 003, cost: 0.051090
+iter: 004, cost: 0.046656
+iter: 005, cost: 0.043926
+iter: 006, cost: 0.042057
+iter: 007, cost: 0.040642
+iter: 008, cost: 0.039496
+iter: 009, cost: 0.038548
+iter: 010, cost: 0.037795
+iter: 011, cost: 0.037153
+iter: 012, cost: 0.036593
+iter: 013, cost: 0.036136
+iter: 014, cost: 0.035677
+iter: 015, cost: 0.035291
+*********evaluate_1118_20:08:13
+Traceback (most recent call last):
+  File "eval/python/evaluate.py", line 110, in <module>
+    main()
+  File "eval/python/evaluate.py", line 14, in main
+    for line in f:
+  File "/home/sonata/anaconda3/lib/python3.7/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+MemoryError
+

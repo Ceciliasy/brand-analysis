@@ -1,0 +1,58 @@
+VOCAB_MIN_COUNT
+*********vocabcount_1121_00:26:23
+build new vocabulary
+BUILDING VOCABULARY
+Processed 39869741 tokens.
+Counted 596563 unique words.
+Using vocabulary of size 596563.
+
+*********coocur1121_00:26:27
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 92514853
+overflow length: 285212672
+Reading vocab from file "/mnt/HDD/NYT/1971/vocab_1971.txt"...loaded 596563 words.
+Building lookup table...table contains 855629083 elements.
+Processed 39869741 tokens.
+Writing cooccurrences to disk..........2 files in total.
+Merging cooccurrence files: processed 105626964 lines.
+
+*********shuffle_1121_00:27:06
+SHUFFLING COOCCURRENCES
+array size: 1912602624
+Shuffling by chunks: processed 105626964 lines.
+Wrote 1 temporary file(s).
+Merging temp files: processed 105626964 lines.
+
+*********glovetrain_1121_00:27:34
+TRAINING MODEL
+Read 105626964 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 596563
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.069846
+iter: 002, cost: 0.049214
+iter: 003, cost: 0.041883
+iter: 004, cost: 0.036094
+iter: 005, cost: 0.031660
+iter: 006, cost: 0.028612
+iter: 007, cost: 0.026422
+iter: 008, cost: 0.024852
+iter: 009, cost: 0.023629
+iter: 010, cost: 0.022698
+iter: 011, cost: 0.021927
+iter: 012, cost: 0.021270
+iter: 013, cost: 0.020653
+iter: 014, cost: 0.020119
+iter: 015, cost: 0.019676
+*********evaluate_1121_00:40:30
+Traceback (most recent call last):
+  File "eval/python/evaluate.py", line 110, in <module>
+    main()
+  File "eval/python/evaluate.py", line 22, in main
+    vector_dim = len(vectors[ivocab[0]])
+TypeError: object of type 'map' has no len()
+

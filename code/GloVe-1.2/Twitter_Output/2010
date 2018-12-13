@@ -1,0 +1,59 @@
+VOCAB_MIN_COUNT20
+*********vocabcount_1114_14:53:33
+build new vocabulary
+BUILDING VOCABULARY
+Processed 3120001005 tokens.
+Counted 68819066 unique words.
+Truncating vocabulary at min count 20.
+Using vocabulary of size 3217616.
+
+*********coocur1114_15:15:43
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 92514853
+overflow length: 285212672
+Reading vocab from file "/mnt/HDD/2010/vocab_new_2010.txt"...loaded 3217616 words.
+Building lookup table...table contains 1164819371 elements.
+Processed 3120000897 tokens.
+Writing cooccurrences to disk............19 files in total.
+Merging cooccurrence files: processed 3210318719 lines.
+
+*********shuffle_1114_16:05:08
+SHUFFLING COOCCURRENCES
+array size: 1912602624
+Shuffling by chunks: processed 3210318719 lines.
+Wrote 2 temporary file(s).
+Merging temp files: processed 3210318719 lines.
+
+*********glovetrain_1114_16:32:41
+TRAINING MODEL
+Read 3210318719 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 3217616
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.073511
+iter: 002, cost: 0.054751
+iter: 003, cost: 0.047687
+iter: 004, cost: 0.043912
+iter: 005, cost: 0.041500
+iter: 006, cost: 0.039822
+iter: 007, cost: 0.038561
+iter: 008, cost: 0.037641
+iter: 009, cost: 0.036766
+iter: 010, cost: 0.035998
+iter: 011, cost: 0.035398
+iter: 012, cost: 0.034898
+iter: 013, cost: 0.034529
+iter: 014, cost: -nan
+iter: 015, cost: -nan
+*********evaluate_1114_23:02:30
+Traceback (most recent call last):
+  File "eval/python/evaluate.py", line 110, in <module>
+    main()
+  File "eval/python/evaluate.py", line 15, in main
+    vals = line.rstrip().split(' ')
+MemoryError
+

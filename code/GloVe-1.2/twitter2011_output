@@ -1,0 +1,591 @@
+*********vocabcount_1024_14:48:50
+build new vocabulary
+BUILDING VOCABULARY
+Processed 13000000 tokens.
+          2564000000 tokens.
+Processed 3461270225 tokens.
+Counted 265349184 unique words.
+Truncating vocabulary at min count 50.
+Using vocabulary of size 2067782.
+
+*********coocur1024_17:42:45
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 121558869
+overflow length: 380283562
+Reading vocab from file "/mnt/HDD/2011/vocab_2011.txt"...Error, duplicate entry located: 841.
+loaded 2067782 words.
+Building lookup table...table contains 1391977294 elements.
+Processed 3461122714 tokens.
+Writing cooccurrences to disk...........15 files in total.
+Merging cooccurrence files: processed 3215383465 lines.
+
+*********shuffle_1024_18:34:39
+SHUFFLING COOCCURRENCES
+array size: 2550136832
+Shuffling by chunks: processed 3215383465 lines.
+Wrote 2 temporary file(s).
+Merging temp files: processed 3215383465 lines.
+
+*********glovetrain_1024_19:00:02
+TRAINING MODEL
+Read 3215383465 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 2067782
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.079687
+iter: 002, cost: 0.058006
+iter: 003, cost: 0.049661
+
+iter: 004, cost: 0.045355
+iter: 005, cost: 0.042732
+iter: 006, cost: 0.041013
+iter: 007, cost: 0.039789
+iter: 008, cost: 0.038777
+iter: 009, cost: 0.038039
+iter: 010, cost: 0.037371
+
+iter: 011, cost: 0.036847
+iter: 012, cost: 0.036478
+iter: 013, cost: -nan
+iter: 014, cost: -nan
+iter: 015, cost: -nan
+iter: 016, cost: -nan
+iter: 017, cost: -nan
+iter: 018, cost: -nan
+iter: 019, cost: -nan
+iter: 020, cost: -nan
+*********evaluate_1025_03:45:59
+eval/python/evaluate.py:32: RuntimeWarning: divide by zero encountered in divide
+  W_norm = (W.T / d).T
+eval/python/evaluate.py:32: RuntimeWarning: invalid value encountered in divide
+  W_norm = (W.T / d).T
+capital-common-countries.txt:
+ACCURACY TOP1: 0.00% (0/462)
+capital-world.txt:
+ACCURACY TOP1: 0.00% (0/1239)
+currency.txt:
+ACCURACY TOP1: 0.00% (0/596)
+city-in-state.txt:
+ACCURACY TOP1: 0.00% (0/2467)
+family.txt:
+ACCURACY TOP1: 0.00% (0/506)
+gram1-adjective-to-adverb.txt:
+ACCURACY TOP1: 0.00% (0/992)
+gram2-opposite.txt:
+ACCURACY TOP1: 0.00% (0/702)
+gram3-comparative.txt:
+ACCURACY TOP1: 0.00% (0/1332)
+gram4-superlative.txt:
+ACCURACY TOP1: 0.00% (0/1122)
+gram5-present-participle.txt:
+ACCURACY TOP1: 0.00% (0/1056)
+gram6-nationality-adjective.txt:
+ACCURACY TOP1: 0.00% (0/1229)
+gram7-past-tense.txt:
+ACCURACY TOP1: 0.00% (0/1560)
+gram8-plural.txt:
+ACCURACY TOP1: 0.00% (0/1332)
+gram9-plural-verbs.txt:
+ACCURACY TOP1: 0.00% (0/870)
+Questions seen/total: 79.13% (15465/19544)
+Semantic accuracy: 0.00%  (0/5270)
+Syntactic accuracy: 0.00%  (0/10195)
+Total accuracy: 0.00%  (0/15465)
+
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+B
+B
+B
+B
+B
+B
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+
+B
+B
+B
+B
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+

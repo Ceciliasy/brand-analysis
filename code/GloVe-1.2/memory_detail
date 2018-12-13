@@ -1,0 +1,143 @@
+Memory Device
+	Array Handle: 0x0010
+	Error Information Handle: 0x0016
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL A
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Unknown
+	Serial Number: Unknown
+	Asset Tag: Not Specified
+	Part Number: Unknown
+--
+Memory Device
+	Array Handle: 0x0010
+	Error Information Handle: 0x0018
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 1
+	Bank Locator: P0 CHANNEL A
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 2400 MT/s
+	Manufacturer: Unknown
+	Serial Number: DB968034
+	Asset Tag: Not Specified
+	Part Number: BLS16G4D240FSE.16FBD
+--
+Memory Device
+	Array Handle: 0x0010
+	Error Information Handle: 0x001B
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL B
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Unknown
+	Serial Number: Unknown
+	Asset Tag: Not Specified
+	Part Number: Unknown
+--
+Memory Device
+	Array Handle: 0x0010
+	Error Information Handle: 0x001D
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16384 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 1
+	Bank Locator: P0 CHANNEL B
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 2400 MT/s
+	Manufacturer: Unknown
+	Serial Number: E238F335
+	Asset Tag: Not Specified
+	Part Number: BLS16G4D240FSE.16FBD
+--
+Memory Device
+	Array Handle: 0x0010
+	Error Information Handle: 0x0020
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL C
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Unknown
+	Serial Number: Unknown
+	Asset Tag: Not Specified
+	Part Number: Unknown
+--
+Memory Device
+	Array Handle: 0x0010
+	Error Information Handle: 0x0022
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: DIMM 1
+	Bank Locator: P0 CHANNEL C
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Unknown
+	Serial Number: Unknown
+	Asset Tag: Not Specified
+	Part Number: Unknown
+--
+Memory Device
+	Array Handle: 0x0010
+	Error Information Handle: 0x0024
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL D
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Unknown
+	Serial Number: Unknown
+	Asset Tag: Not Specified
+	Part Number: Unknown
+--
+Memory Device
+	Array Handle: 0x0010
+	Error Information Handle: 0x0026
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: DIMM 1
+	Bank Locator: P0 CHANNEL D
+	Type: Unknown
+	Type Detail: Unknown
+	Speed: Unknown
+	Manufacturer: Unknown
+	Serial Number: Unknown
+	Asset Tag: Not Specified
+	Part Number: Unknown

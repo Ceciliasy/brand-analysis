@@ -1,0 +1,1867 @@
+.bash > sec_output
+BUILDING VOCABULARY
+Processed 168643592 tokens.
+Counted 39776 unique words.
+Truncating vocabulary at min count 5.
+Using vocabulary of size 39630.
+
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 121558869
+overflow length: 380283562
+Reading vocab from file "/media/sonata/MyBook/sec_corpus/1994/vocab_1994.txt"...loaded 39630 words.
+Building lookup table...table contains 432564036 elements.
+Processed 168643611 tokens.
+Writing cooccurrences to disk........2 files in total.
+Merging cooccurrence files: processed 8135389 lines.
+
+SHUFFLING COOCCURRENCES
+array size: 2550136832
+Shuffling by chunks: processed 8135389 lines.
+Wrote 1 temporary file(s).
+Merging temp files: processed 8135389 lines.
+
+TRAINING MODEL
+Read 8135389 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 39630
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.543466
+iter: 002, cost: 0.410085
+iter: 003, cost: 0.353898
+iter: 004, cost: 0.309740
+iter: 005, cost: 0.270320
+iter: 006, cost: 0.237061
+iter: 007, cost: 0.212049
+iter: 008, cost: 0.196149
+iter: 009, cost: 0.182088
+iter: 010, cost: 0.173722
+iter: 011, cost: 0.164220
+iter: 012, cost: 0.157112
+iter: 013, cost: 0.150920
+iter: 014, cost: 0.145760
+iter: 015, cost: 0.141114
+iter: 016, cost: 0.137244
+iter: 017, cost: 0.133746
+iter: 018, cost: 0.131469
+iter: 019, cost: 0.128571
+iter: 020, cost: 0.125695
+iter: 021, cost: 0.123175
+iter: 022, cost: 0.120915
+iter: 023, cost: 0.119278
+iter: 024, cost: 0.117638
+iter: 025, cost: 0.116149
+iter: 026, cost: 0.114705
+iter: 027, cost: 0.114845
+iter: 028, cost: 0.112661
+iter: 029, cost: 0.111308
+iter: 030, cost: 0.110350
+iter: 031, cost: 0.109393
+iter: 032, cost: 0.108298
+iter: 033, cost: 0.107837
+iter: 034, cost: 0.106886
+iter: 035, cost: 0.105991
+iter: 036, cost: 0.104973
+iter: 037, cost: 0.103947
+iter: 038, cost: 0.103404
+iter: 039, cost: 0.102724
+iter: 040, cost: 0.101711
+iter: 041, cost: 0.101032
+iter: 042, cost: 0.100436
+iter: 043, cost: 0.100008
+iter: 044, cost: 0.099457
+iter: 045, cost: 0.098937
+iter: 046, cost: 0.098534
+iter: 047, cost: 0.098460
+iter: 048, cost: 0.098139
+iter: 049, cost: 0.097678
+iter: 050, cost: 0.097182
+iter: 051, cost: 0.096467
+iter: 052, cost: 0.096017
+iter: 053, cost: 0.095610
+iter: 054, cost: 0.094771
+iter: 055, cost: 0.094361
+iter: 056, cost: 0.093410
+iter: 057, cost: 0.092770
+iter: 058, cost: 0.092247
+iter: 059, cost: 0.092086
+iter: 060, cost: 0.091355
+iter: 061, cost: 0.091068
+iter: 062, cost: 0.090847
+iter: 063, cost: 0.090444
+iter: 064, cost: 0.090044
+iter: 065, cost: 0.089715
+iter: 066, cost: 0.089560
+iter: 067, cost: 0.089240
+iter: 068, cost: 0.088888
+iter: 069, cost: 0.088652
+iter: 070, cost: 0.088627
+iter: 071, cost: 0.088372
+iter: 072, cost: 0.088076
+iter: 073, cost: 0.087741
+iter: 074, cost: 0.087476
+iter: 075, cost: 0.087190
+iter: 076, cost: 0.086827
+iter: 077, cost: 0.086540
+iter: 078, cost: 0.086239
+iter: 079, cost: 0.085838
+iter: 080, cost: 0.085396
+iter: 081, cost: 0.085043
+iter: 082, cost: 0.084497
+iter: 083, cost: 0.084081
+iter: 084, cost: 0.083958
+iter: 085, cost: 0.083452
+iter: 086, cost: 0.083140
+iter: 087, cost: 0.082963
+iter: 088, cost: 0.082511
+iter: 089, cost: 0.082434
+iter: 090, cost: 0.082055
+iter: 091, cost: 0.081960
+iter: 092, cost: 0.081864
+iter: 093, cost: 0.081774
+iter: 094, cost: 0.081612
+iter: 095, cost: 0.081487
+iter: 096, cost: 0.081303
+iter: 097, cost: 0.081526
+iter: 098, cost: 0.081366
+iter: 099, cost: 0.081071
+iter: 100, cost: 0.080572
+iter: 101, cost: 0.080210
+iter: 102, cost: 0.079894
+iter: 103, cost: 0.079497
+iter: 104, cost: 0.079312
+iter: 105, cost: 0.079087
+iter: 106, cost: 0.078880
+iter: 107, cost: 0.078582
+iter: 108, cost: 0.078450
+iter: 109, cost: 0.078172
+iter: 110, cost: 0.078038
+iter: 111, cost: 0.077873
+iter: 112, cost: 0.077812
+iter: 113, cost: 0.077777
+iter: 114, cost: 0.077548
+iter: 115, cost: 0.077473
+iter: 116, cost: 0.077231
+iter: 117, cost: 0.077108
+iter: 118, cost: 0.077057
+iter: 119, cost: 0.076913
+iter: 120, cost: 0.077031
+iter: 121, cost: 0.076832
+iter: 122, cost: 0.076787
+iter: 123, cost: 0.076325
+iter: 124, cost: 0.076175
+iter: 125, cost: 0.075903
+iter: 126, cost: 0.075738
+iter: 127, cost: 0.075408
+iter: 128, cost: 0.075070
+iter: 129, cost: 0.074686
+iter: 130, cost: 0.074360
+iter: 131, cost: 0.074130
+iter: 132, cost: 0.073891
+iter: 133, cost: 0.073784
+iter: 134, cost: 0.073819
+iter: 135, cost: 0.073734
+iter: 136, cost: 0.073858
+iter: 137, cost: 0.073944
+iter: 138, cost: 0.074003
+iter: 139, cost: 0.073988
+iter: 140, cost: 0.074059
+iter: 141, cost: 0.074050
+iter: 142, cost: 0.073955
+iter: 143, cost: 0.073869
+iter: 144, cost: 0.073852
+iter: 145, cost: 0.073647
+iter: 146, cost: 0.073668
+iter: 147, cost: 0.073461
+iter: 148, cost: 0.073285
+iter: 149, cost: 0.073022
+iter: 150, cost: 0.072776
+iter: 151, cost: 0.072743
+iter: 152, cost: 0.072459
+iter: 153, cost: 0.072332
+iter: 154, cost: 0.072157
+iter: 155, cost: 0.071947
+iter: 156, cost: 0.071868
+iter: 157, cost: 0.071696
+iter: 158, cost: 0.071689
+iter: 159, cost: 0.071652
+iter: 160, cost: 0.071615
+iter: 161, cost: 0.071551
+iter: 162, cost: 0.071511
+iter: 163, cost: 0.071177
+iter: 164, cost: 0.071012
+iter: 165, cost: 0.070732
+iter: 166, cost: 0.070601
+iter: 167, cost: 0.070213
+iter: 168, cost: 0.070282
+iter: 169, cost: 0.070032
+iter: 170, cost: 0.070119
+iter: 171, cost: 0.069820
+iter: 172, cost: 0.069750
+iter: 173, cost: 0.069498
+iter: 174, cost: 0.069387
+iter: 175, cost: 0.069408
+iter: 176, cost: 0.069303
+iter: 177, cost: 0.069445
+iter: 178, cost: 0.069335
+iter: 179, cost: 0.069417
+iter: 180, cost: 0.069316
+iter: 181, cost: 0.069357
+iter: 182, cost: 0.069412
+iter: 183, cost: 0.069522
+iter: 184, cost: 0.069606
+iter: 185, cost: 0.069706
+iter: 186, cost: 0.069563
+iter: 187, cost: 0.069471
+iter: 188, cost: 0.069355
+iter: 189, cost: 0.069221
+iter: 190, cost: 0.069171
+iter: 191, cost: 0.069023
+iter: 192, cost: 0.069109
+iter: 193, cost: 0.069001
+iter: 194, cost: 0.068902
+iter: 195, cost: 0.068658
+iter: 196, cost: 0.068344
+iter: 197, cost: 0.068101
+iter: 198, cost: 0.067905
+iter: 199, cost: 0.067678
+iter: 200, cost: 0.067599
+iter: 201, cost: 0.067546
+iter: 202, cost: 0.067650
+iter: 203, cost: 0.067630
+iter: 204, cost: 0.067786
+iter: 205, cost: 0.067787
+iter: 206, cost: 0.067933
+iter: 207, cost: 0.067816
+iter: 208, cost: 0.067713
+iter: 209, cost: 0.067685
+iter: 210, cost: 0.067471
+iter: 211, cost: 0.067436
+iter: 212, cost: 0.067293
+iter: 213, cost: 0.067167
+iter: 214, cost: 0.067215
+iter: 215, cost: 0.067053
+iter: 216, cost: 0.066872
+iter: 217, cost: 0.066721
+iter: 218, cost: 0.066789
+iter: 219, cost: 0.066542
+iter: 220, cost: 0.066763
+iter: 221, cost: 0.066494
+iter: 222, cost: 0.066359
+iter: 223, cost: 0.066286
+iter: 224, cost: 0.066089
+iter: 225, cost: 0.066069
+iter: 226, cost: 0.065965
+iter: 227, cost: 0.065889
+iter: 228, cost: 0.065996
+iter: 229, cost: 0.065942
+iter: 230, cost: 0.065967
+iter: 231, cost: 0.065841
+iter: 232, cost: 0.065779
+iter: 233, cost: 0.065763
+iter: 234, cost: 0.065697
+iter: 235, cost: 0.065684
+iter: 236, cost: 0.065609
+iter: 237, cost: 0.065545
+iter: 238, cost: 0.065456
+iter: 239, cost: 0.065438
+iter: 240, cost: 0.065322
+iter: 241, cost: 0.065218
+iter: 242, cost: 0.065118
+iter: 243, cost: 0.065072
+iter: 244, cost: 0.065008
+iter: 245, cost: 0.064977
+iter: 246, cost: 0.064975
+iter: 247, cost: 0.064990
+iter: 248, cost: 0.064985
+iter: 249, cost: 0.064980
+iter: 250, cost: 0.064980
+Traceback (most recent call last):
+  File "eval/python/evaluate.py", line 110, in <module>
+    main()
+  File "eval/python/evaluate.py", line 33, in main
+    evaluate_vectors(W_norm, vocab, ivocab)
+  File "eval/python/evaluate.py", line 66, in evaluate_vectors
+    ind1, ind2, ind3, ind4 = indices.T
+ValueError: need more than 0 values to unpack
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 121558869
+overflow length: 380283562
+Reading vocab from file "/media/sonata/MyBook/sec_corpus/1995/vocab_1995.txt"...loaded 51365 words.
+Building lookup table...table contains 495609218 elements.
+Processed 217716142 tokens.
+Writing cooccurrences to disk.........2 files in total.
+Merging cooccurrence files: processed 10771255 lines.
+
+SHUFFLING COOCCURRENCES
+array size: 2550136832
+Shuffling by chunks: processed 10771255 lines.
+Wrote 1 temporary file(s).
+Merging temp files: processed 10771255 lines.
+
+TRAINING MODEL
+Read 10771255 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 51365
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.508605
+iter: 002, cost: 0.385823
+iter: 003, cost: 0.336977
+iter: 004, cost: 0.296300
+iter: 005, cost: 0.258892
+iter: 006, cost: 0.229393
+iter: 007, cost: 0.209618
+iter: 008, cost: 0.195724
+iter: 009, cost: 0.182780
+iter: 010, cost: 0.174083
+iter: 011, cost: 0.165393
+iter: 012, cost: 0.159299
+iter: 013, cost: 0.154289
+iter: 014, cost: 0.150157
+iter: 015, cost: 0.146118
+iter: 016, cost: 0.142720
+iter: 017, cost: 0.139093
+iter: 018, cost: 0.136179
+iter: 019, cost: 0.133535
+iter: 020, cost: 0.132016
+iter: 021, cost: 0.129728
+iter: 022, cost: 0.127860
+iter: 023, cost: 0.126167
+iter: 024, cost: 0.124798
+iter: 025, cost: 0.123267
+iter: 026, cost: 0.121645
+iter: 027, cost: 0.120258
+iter: 028, cost: 0.118916
+iter: 029, cost: 0.117781
+iter: 030, cost: 0.117116
+iter: 031, cost: 0.116473
+iter: 032, cost: 0.115566
+iter: 033, cost: 0.114206
+iter: 034, cost: 0.113423
+iter: 035, cost: 0.112849
+iter: 036, cost: 0.112379
+iter: 037, cost: 0.111619
+iter: 038, cost: 0.110938
+iter: 039, cost: 0.110171
+iter: 040, cost: 0.109513
+iter: 041, cost: 0.108878
+iter: 042, cost: 0.108329
+iter: 043, cost: 0.107733
+iter: 044, cost: 0.107299
+iter: 045, cost: 0.106849
+iter: 046, cost: 0.106058
+iter: 047, cost: 0.105682
+iter: 048, cost: 0.105188
+iter: 049, cost: 0.104656
+iter: 050, cost: 0.104840
+iter: 051, cost: 0.103913
+iter: 052, cost: 0.103292
+iter: 053, cost: 0.102448
+iter: 054, cost: 0.101750
+iter: 055, cost: 0.101597
+iter: 056, cost: 0.100828
+iter: 057, cost: 0.100458
+iter: 058, cost: 0.099952
+iter: 059, cost: 0.099637
+iter: 060, cost: 0.099210
+iter: 061, cost: 0.098944
+iter: 062, cost: 0.098792
+iter: 063, cost: 0.098242
+iter: 064, cost: 0.097945
+iter: 065, cost: 0.097681
+iter: 066, cost: 0.097356
+iter: 067, cost: 0.097049
+iter: 068, cost: 0.096720
+iter: 069, cost: 0.096657
+iter: 070, cost: 0.096575
+iter: 071, cost: 0.096934
+iter: 072, cost: 0.096586
+iter: 073, cost: 0.096706
+iter: 074, cost: 0.096222
+iter: 075, cost: 0.095392
+iter: 076, cost: 0.094718
+iter: 077, cost: 0.094019
+iter: 078, cost: 0.093301
+iter: 079, cost: 0.092905
+iter: 080, cost: 0.092255
+iter: 081, cost: 0.092296
+iter: 082, cost: 0.091803
+iter: 083, cost: 0.091736
+iter: 084, cost: 0.091588
+iter: 085, cost: 0.091503
+iter: 086, cost: 0.091380
+iter: 087, cost: 0.091497
+iter: 088, cost: 0.091291
+iter: 089, cost: 0.091211
+iter: 090, cost: 0.091171
+iter: 091, cost: 0.090863
+iter: 092, cost: 0.090675
+iter: 093, cost: 0.090495
+iter: 094, cost: 0.090136
+iter: 095, cost: 0.089915
+iter: 096, cost: 0.089998
+iter: 097, cost: 0.089554
+iter: 098, cost: 0.089348
+iter: 099, cost: 0.089147
+iter: 100, cost: 0.089016
+iter: 101, cost: 0.088914
+iter: 102, cost: 0.088634
+iter: 103, cost: 0.088449
+iter: 104, cost: 0.088165
+iter: 105, cost: 0.087780
+iter: 106, cost: 0.087520
+iter: 107, cost: 0.087331
+iter: 108, cost: 0.087081
+iter: 109, cost: 0.086929
+iter: 110, cost: 0.087195
+iter: 111, cost: 0.086693
+iter: 112, cost: 0.086687
+iter: 113, cost: 0.086318
+iter: 114, cost: 0.086166
+iter: 115, cost: 0.085924
+iter: 116, cost: 0.085725
+iter: 117, cost: 0.085638
+iter: 118, cost: 0.085528
+iter: 119, cost: 0.085308
+iter: 120, cost: 0.085187
+iter: 121, cost: 0.085072
+iter: 122, cost: 0.084874
+iter: 123, cost: 0.084612
+iter: 124, cost: 0.084433
+iter: 125, cost: 0.084162
+iter: 126, cost: 0.083965
+iter: 127, cost: 0.083782
+iter: 128, cost: 0.083817
+iter: 129, cost: 0.083563
+iter: 130, cost: 0.083665
+iter: 131, cost: 0.083604
+iter: 132, cost: 0.083548
+iter: 133, cost: 0.083532
+iter: 134, cost: 0.083395
+iter: 135, cost: 0.083240
+iter: 136, cost: 0.083157
+iter: 137, cost: 0.083040
+iter: 138, cost: 0.083036
+iter: 139, cost: 0.082765
+iter: 140, cost: 0.082702
+iter: 141, cost: 0.082440
+iter: 142, cost: 0.082211
+iter: 143, cost: 0.082048
+iter: 144, cost: 0.081800
+iter: 145, cost: 0.081675
+iter: 146, cost: 0.081526
+iter: 147, cost: 0.081528
+iter: 148, cost: 0.081373
+iter: 149, cost: 0.081438
+iter: 150, cost: 0.081365
+iter: 151, cost: 0.081318
+iter: 152, cost: 0.081349
+iter: 153, cost: 0.081189
+iter: 154, cost: 0.081144
+iter: 155, cost: 0.080916
+iter: 156, cost: 0.080779
+iter: 157, cost: 0.080534
+iter: 158, cost: 0.080409
+iter: 159, cost: 0.080260
+iter: 160, cost: 0.080068
+iter: 161, cost: 0.079981
+iter: 162, cost: 0.079897
+iter: 163, cost: 0.079761
+iter: 164, cost: 0.079728
+iter: 165, cost: 0.079707
+iter: 166, cost: 0.079698
+iter: 167, cost: 0.079690
+iter: 168, cost: 0.079604
+iter: 169, cost: 0.079536
+iter: 170, cost: 0.079639
+iter: 171, cost: 0.079461
+iter: 172, cost: 0.079481
+iter: 173, cost: 0.079277
+iter: 174, cost: 0.079175
+iter: 175, cost: 0.078982
+iter: 176, cost: 0.078853
+iter: 177, cost: 0.078741
+iter: 178, cost: 0.078604
+iter: 179, cost: 0.078503
+iter: 180, cost: 0.078414
+iter: 181, cost: 0.078315
+iter: 182, cost: 0.078337
+iter: 183, cost: 0.078167
+iter: 184, cost: 0.078288
+iter: 185, cost: 0.078134
+iter: 186, cost: 0.078065
+iter: 187, cost: 0.077842
+iter: 188, cost: 0.077721
+iter: 189, cost: 0.077577
+iter: 190, cost: 0.077484
+iter: 191, cost: 0.077408
+iter: 192, cost: 0.077303
+iter: 193, cost: 0.077375
+iter: 194, cost: 0.077221
+iter: 195, cost: 0.077315
+iter: 196, cost: 0.077219
+iter: 197, cost: 0.077181
+iter: 198, cost: 0.077101
+iter: 199, cost: 0.077054
+iter: 200, cost: 0.076967
+iter: 201, cost: 0.076864
+iter: 202, cost: 0.076788
+iter: 203, cost: 0.076686
+iter: 204, cost: 0.076635
+iter: 205, cost: 0.076571
+iter: 206, cost: 0.076437
+iter: 207, cost: 0.076415
+iter: 208, cost: 0.076250
+iter: 209, cost: 0.076094
+iter: 210, cost: 0.075951
+iter: 211, cost: 0.075811
+iter: 212, cost: 0.075700
+iter: 213, cost: 0.075656
+iter: 214, cost: 0.075572
+iter: 215, cost: 0.075629
+iter: 216, cost: 0.075597
+iter: 217, cost: 0.075580
+iter: 218, cost: 0.075571
+iter: 219, cost: 0.075566
+iter: 220, cost: 0.075583
+iter: 221, cost: 0.075552
+iter: 222, cost: 0.075492
+iter: 223, cost: 0.075454
+iter: 224, cost: 0.075412
+iter: 225, cost: 0.075314
+iter: 226, cost: 0.075314
+iter: 227, cost: 0.075163
+iter: 228, cost: 0.075200
+iter: 229, cost: 0.075076
+iter: 230, cost: 0.075065
+iter: 231, cost: 0.074897
+iter: 232, cost: 0.074799
+iter: 233, cost: 0.074650
+iter: 234, cost: 0.074592
+iter: 235, cost: 0.074482
+iter: 236, cost: 0.074441
+iter: 237, cost: 0.074386
+iter: 238, cost: 0.074248
+iter: 239, cost: 0.074133
+iter: 240, cost: 0.074034
+iter: 241, cost: 0.073991
+iter: 242, cost: 0.073902
+iter: 243, cost: 0.073910
+iter: 244, cost: 0.073910
+iter: 245, cost: 0.073878
+iter: 246, cost: 0.073838
+iter: 247, cost: 0.073789
+iter: 248, cost: 0.073724
+iter: 249, cost: 0.073701
+iter: 250, cost: 0.073710
+Traceback (most recent call last):
+  File "eval/python/evaluate.py", line 110, in <module>
+    main()
+  File "eval/python/evaluate.py", line 33, in main
+    evaluate_vectors(W_norm, vocab, ivocab)
+  File "eval/python/evaluate.py", line 66, in evaluate_vectors
+    ind1, ind2, ind3, ind4 = indices.T
+ValueError: need more than 0 values to unpack
+BUILDING VOCABULARY
+Processed 373057498 tokens.
+Counted 69706 unique words.
+Truncating vocabulary at min count 5.
+Using vocabulary of size 69348.
+
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 121558869
+overflow length: 380283562
+Reading vocab from file "/media/sonata/MyBook/sec_corpus/1996/vocab_1996.txt"...loaded 69348 words.
+Building lookup table...table contains 568569780 elements.
+Processed 373057528 tokens.
+Writing cooccurrences to disk.........2 files in total.
+Merging cooccurrence files: processed 15926063 lines.
+
+SHUFFLING COOCCURRENCES
+array size: 2550136832
+Shuffling by chunks: processed 15926063 lines.
+Wrote 1 temporary file(s).
+Merging temp files: processed 15926063 lines.
+
+TRAINING MODEL
+Read 15926063 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 69348
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.495749
+iter: 002, cost: 0.382115
+iter: 003, cost: 0.342315
+iter: 004, cost: 0.301820
+iter: 005, cost: 0.265076
+iter: 006, cost: 0.239562
+iter: 007, cost: 0.222619
+iter: 008, cost: 0.208496
+iter: 009, cost: 0.198532
+iter: 010, cost: 0.190770
+iter: 011, cost: 0.184127
+iter: 012, cost: 0.179179
+iter: 013, cost: 0.172306
+iter: 014, cost: 0.168499
+iter: 015, cost: 0.164752
+iter: 016, cost: 0.161967
+iter: 017, cost: 0.158719
+iter: 018, cost: 0.156317
+iter: 019, cost: 0.153724
+iter: 020, cost: 0.151623
+iter: 021, cost: 0.149937
+iter: 022, cost: 0.147907
+iter: 023, cost: 0.146541
+iter: 024, cost: 0.145716
+iter: 025, cost: 0.143832
+iter: 026, cost: 0.142702
+iter: 027, cost: 0.141895
+iter: 028, cost: 0.140211
+iter: 029, cost: 0.139049
+iter: 030, cost: 0.138163
+iter: 031, cost: 0.137163
+iter: 032, cost: 0.136358
+iter: 033, cost: 0.135590
+iter: 034, cost: 0.135230
+iter: 035, cost: 0.134278
+iter: 036, cost: 0.133527
+iter: 037, cost: 0.133186
+iter: 038, cost: 0.132486
+iter: 039, cost: 0.131641
+iter: 040, cost: 0.130853
+iter: 041, cost: 0.130311
+iter: 042, cost: 0.130516
+iter: 043, cost: 0.129068
+iter: 044, cost: 0.128458
+iter: 045, cost: 0.127603
+iter: 046, cost: 0.127124
+iter: 047, cost: 0.126435
+iter: 048, cost: 0.125546
+iter: 049, cost: 0.124975
+iter: 050, cost: 0.125001
+iter: 051, cost: 0.124242
+iter: 052, cost: 0.123622
+iter: 053, cost: 0.122281
+iter: 054, cost: 0.121483
+iter: 055, cost: 0.120768
+iter: 056, cost: 0.120341
+iter: 057, cost: 0.119749
+iter: 058, cost: 0.119329
+iter: 059, cost: 0.119675
+iter: 060, cost: 0.118839
+iter: 061, cost: 0.118734
+iter: 062, cost: 0.118418
+iter: 063, cost: 0.118545
+iter: 064, cost: 0.118019
+iter: 065, cost: 0.117915
+iter: 066, cost: 0.117582
+iter: 067, cost: 0.117359
+iter: 068, cost: 0.117066
+iter: 069, cost: 0.116841
+iter: 070, cost: 0.116617
+iter: 071, cost: 0.116452
+iter: 072, cost: 0.116120
+iter: 073, cost: 0.115785
+iter: 074, cost: 0.115445
+iter: 075, cost: 0.115191
+iter: 076, cost: 0.115269
+iter: 077, cost: 0.114577
+iter: 078, cost: 0.114219
+iter: 079, cost: 0.113765
+iter: 080, cost: 0.113409
+iter: 081, cost: 0.112964
+iter: 082, cost: 0.112737
+iter: 083, cost: 0.112281
+iter: 084, cost: 0.112397
+iter: 085, cost: 0.111791
+iter: 086, cost: 0.111811
+iter: 087, cost: 0.111449
+iter: 088, cost: 0.111226
+iter: 089, cost: 0.110916
+iter: 090, cost: 0.110640
+iter: 091, cost: 0.110588
+iter: 092, cost: 0.110155
+iter: 093, cost: 0.110033
+iter: 094, cost: 0.109781
+iter: 095, cost: 0.109521
+iter: 096, cost: 0.109346
+iter: 097, cost: 0.109321
+iter: 098, cost: 0.108986
+iter: 099, cost: 0.108834
+iter: 100, cost: 0.108622
+iter: 101, cost: 0.108610
+iter: 102, cost: 0.108315
+iter: 103, cost: 0.108304
+iter: 104, cost: 0.108097
+iter: 105, cost: 0.108015
+iter: 106, cost: 0.107874
+iter: 107, cost: 0.107592
+iter: 108, cost: 0.107405
+iter: 109, cost: 0.107101
+iter: 110, cost: 0.106885
+iter: 111, cost: 0.106656
+iter: 112, cost: 0.106319
+iter: 113, cost: 0.106064
+iter: 114, cost: 0.105855
+iter: 115, cost: 0.105646
+iter: 116, cost: 0.105495
+iter: 117, cost: 0.105354
+iter: 118, cost: 0.105163
+iter: 119, cost: 0.105020
+iter: 120, cost: 0.104983
+iter: 121, cost: 0.104917
+iter: 122, cost: 0.104743
+iter: 123, cost: 0.104676
+iter: 124, cost: 0.104825
+iter: 125, cost: 0.104452
+iter: 126, cost: 0.104446
+iter: 127, cost: 0.104156
+iter: 128, cost: 0.103969
+iter: 129, cost: 0.103681
+iter: 130, cost: 0.103516
+iter: 131, cost: 0.103291
+iter: 132, cost: 0.103187
+iter: 133, cost: 0.102995
+iter: 134, cost: 0.102925
+iter: 135, cost: 0.102776
+iter: 136, cost: 0.102665
+iter: 137, cost: 0.102457
+iter: 138, cost: 0.102428
+iter: 139, cost: 0.102220
+iter: 140, cost: 0.102136
+iter: 141, cost: 0.102007
+iter: 142, cost: 0.101913
+iter: 143, cost: 0.101747
+iter: 144, cost: 0.101625
+iter: 145, cost: 0.101507
+iter: 146, cost: 0.101366
+iter: 147, cost: 0.101276
+iter: 148, cost: 0.101131
+iter: 149, cost: 0.100968
+iter: 150, cost: 0.100842
+iter: 151, cost: 0.100787
+iter: 152, cost: 0.100604
+iter: 153, cost: 0.100568
+iter: 154, cost: 0.100438
+iter: 155, cost: 0.100351
+iter: 156, cost: 0.100329
+iter: 157, cost: 0.100169
+iter: 158, cost: 0.100073
+iter: 159, cost: 0.099911
+iter: 160, cost: 0.099829
+iter: 161, cost: 0.099702
+iter: 162, cost: 0.099562
+iter: 163, cost: 0.099459
+iter: 164, cost: 0.099463
+iter: 165, cost: 0.099299
+iter: 166, cost: 0.099289
+iter: 167, cost: 0.099182
+iter: 168, cost: 0.099130
+iter: 169, cost: 0.099021
+iter: 170, cost: 0.098984
+iter: 171, cost: 0.098838
+iter: 172, cost: 0.098738
+iter: 173, cost: 0.098546
+iter: 174, cost: 0.098516
+iter: 175, cost: 0.098259
+iter: 176, cost: 0.098157
+iter: 177, cost: 0.097929
+iter: 178, cost: 0.097818
+iter: 179, cost: 0.097609
+iter: 180, cost: 0.097474
+iter: 181, cost: 0.097348
+iter: 182, cost: 0.097289
+iter: 183, cost: 0.097214
+iter: 184, cost: 0.097287
+iter: 185, cost: 0.097154
+iter: 186, cost: 0.097256
+iter: 187, cost: 0.097239
+iter: 188, cost: 0.097112
+iter: 189, cost: 0.097252
+iter: 190, cost: 0.097079
+iter: 191, cost: 0.097148
+iter: 192, cost: 0.096906
+iter: 193, cost: 0.096814
+iter: 194, cost: 0.096608
+iter: 195, cost: 0.096421
+iter: 196, cost: 0.096212
+iter: 197, cost: 0.096051
+iter: 198, cost: 0.095897
+iter: 199, cost: 0.095804
+iter: 200, cost: 0.095707
+iter: 201, cost: 0.095668
+iter: 202, cost: 0.095611
+iter: 203, cost: 0.095556
+iter: 204, cost: 0.095546
+iter: 205, cost: 0.095643
+iter: 206, cost: 0.095659
+iter: 207, cost: 0.095695
+iter: 208, cost: 0.095662
+iter: 209, cost: 0.095645
+iter: 210, cost: 0.095619
+iter: 211, cost: 0.095609
+iter: 212, cost: 0.095655
+iter: 213, cost: 0.095573
+iter: 214, cost: 0.095573
+iter: 215, cost: 0.095478
+iter: 216, cost: 0.095271
+iter: 217, cost: 0.095049
+iter: 218, cost: 0.094877
+iter: 219, cost: 0.094728
+iter: 220, cost: 0.094496
+iter: 221, cost: 0.094374
+iter: 222, cost: 0.094148
+iter: 223, cost: 0.093967
+iter: 224, cost: 0.093855
+iter: 225, cost: 0.093796
+iter: 226, cost: 0.093683
+iter: 227, cost: 0.093706
+iter: 228, cost: 0.093715
+iter: 229, cost: 0.093706
+iter: 230, cost: 0.093755
+iter: 231, cost: 0.093812
+iter: 232, cost: 0.093794
+iter: 233, cost: 0.093829
+iter: 234, cost: 0.093879
+iter: 235, cost: 0.093778
+iter: 236, cost: 0.093920
+iter: 237, cost: 0.093762
+iter: 238, cost: 0.093754
+iter: 239, cost: 0.093604
+iter: 240, cost: 0.093491
+iter: 241, cost: 0.093416
+iter: 242, cost: 0.093287
+iter: 243, cost: 0.093173
+iter: 244, cost: 0.093083
+iter: 245, cost: 0.092991
+iter: 246, cost: 0.092925
+iter: 247, cost: 0.092811
+iter: 248, cost: 0.092781
+iter: 249, cost: 0.092692
+iter: 250, cost: 0.092703
+Traceback (most recent call last):
+  File "eval/python/evaluate.py", line 110, in <module>
+    main()
+  File "eval/python/evaluate.py", line 33, in main
+    evaluate_vectors(W_norm, vocab, ivocab)
+  File "eval/python/evaluate.py", line 66, in evaluate_vectors
+    ind1, ind2, ind3, ind4 = indices.T
+ValueError: need more than 0 values to unpack
+BUILDING VOCABULARY
+Processed 458424615 tokens.
+Counted 80717 unique words.
+Truncating vocabulary at min count 5.
+Using vocabulary of size 79880.
+
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 121558869
+overflow length: 380283562
+Reading vocab from file "/media/sonata/MyBook/sec_corpus/1997/vocab_1997.txt"...loaded 79880 words.
+Building lookup table...table contains 602933002 elements.
+Processed 458424615 tokens.
+Writing cooccurrences to disk.........2 files in total.
+Merging cooccurrence files: processed 18830012 lines.
+
+SHUFFLING COOCCURRENCES
+array size: 2550136832
+Shuffling by chunks: processed 18830012 lines.
+Wrote 1 temporary file(s).
+Merging temp files: processed 18830012 lines.
+
+TRAINING MODEL
+Read 18830012 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 79880
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.496139
+iter: 002, cost: 0.386524
+iter: 003, cost: 0.348611
+iter: 004, cost: 0.306772
+iter: 005, cost: 0.271497
+iter: 006, cost: 0.247036
+iter: 007, cost: 0.229372
+iter: 008, cost: 0.217632
+iter: 009, cost: 0.206943
+iter: 010, cost: 0.197483
+iter: 011, cost: 0.192674
+iter: 012, cost: 0.186051
+iter: 013, cost: 0.180454
+iter: 014, cost: 0.176316
+iter: 015, cost: 0.172697
+iter: 016, cost: 0.169790
+iter: 017, cost: 0.166891
+iter: 018, cost: 0.164552
+iter: 019, cost: 0.162216
+iter: 020, cost: 0.159567
+iter: 021, cost: 0.158589
+iter: 022, cost: 0.156920
+iter: 023, cost: 0.154583
+iter: 024, cost: 0.153007
+iter: 025, cost: 0.151666
+iter: 026, cost: 0.150488
+iter: 027, cost: 0.149730
+iter: 028, cost: 0.148756
+iter: 029, cost: 0.148060
+iter: 030, cost: 0.146935
+iter: 031, cost: 0.146024
+iter: 032, cost: 0.145327
+iter: 033, cost: 0.144352
+iter: 034, cost: 0.143685
+iter: 035, cost: 0.143605
+iter: 036, cost: 0.142563
+iter: 037, cost: 0.141875
+iter: 038, cost: 0.140755
+iter: 039, cost: 0.139770
+iter: 040, cost: 0.138940
+iter: 041, cost: 0.138204
+iter: 042, cost: 0.137425
+iter: 043, cost: 0.136792
+iter: 044, cost: 0.136159
+iter: 045, cost: 0.135929
+iter: 046, cost: 0.135302
+iter: 047, cost: 0.134910
+iter: 048, cost: 0.134466
+iter: 049, cost: 0.133839
+iter: 050, cost: 0.133170
+iter: 051, cost: 0.133145
+iter: 052, cost: 0.132372
+iter: 053, cost: 0.131873
+iter: 054, cost: 0.131416
+iter: 055, cost: 0.131439
+iter: 056, cost: 0.130830
+iter: 057, cost: 0.129969
+iter: 058, cost: 0.129134
+iter: 059, cost: 0.128806
+iter: 060, cost: 0.128169
+iter: 061, cost: 0.127549
+iter: 062, cost: 0.127820
+iter: 063, cost: 0.126837
+iter: 064, cost: 0.126396
+iter: 065, cost: 0.125841
+iter: 066, cost: 0.125455
+iter: 067, cost: 0.125193
+iter: 068, cost: 0.124811
+iter: 069, cost: 0.124513
+iter: 070, cost: 0.124212
+iter: 071, cost: 0.123878
+iter: 072, cost: 0.123651
+iter: 073, cost: 0.123517
+iter: 074, cost: 0.123415
+iter: 075, cost: 0.123340
+iter: 076, cost: 0.123203
+iter: 077, cost: 0.123292
+iter: 078, cost: 0.122926
+iter: 079, cost: 0.122735
+iter: 080, cost: 0.122465
+iter: 081, cost: 0.122239
+iter: 082, cost: 0.122034
+iter: 083, cost: 0.121535
+iter: 084, cost: 0.121145
+iter: 085, cost: 0.120722
+iter: 086, cost: 0.120587
+iter: 087, cost: 0.120085
+iter: 088, cost: 0.119854
+iter: 089, cost: 0.119657
+iter: 090, cost: 0.119136
+iter: 091, cost: 0.118866
+iter: 092, cost: 0.118550
+iter: 093, cost: 0.118211
+iter: 094, cost: 0.118137
+iter: 095, cost: 0.117851
+iter: 096, cost: 0.117687
+iter: 097, cost: 0.117515
+iter: 098, cost: 0.117355
+iter: 099, cost: 0.117239
+iter: 100, cost: 0.117150
+iter: 101, cost: 0.117190
+iter: 102, cost: 0.116928
+iter: 103, cost: 0.116872
+iter: 104, cost: 0.116703
+iter: 105, cost: 0.116418
+iter: 106, cost: 0.116134
+iter: 107, cost: 0.115866
+iter: 108, cost: 0.115592
+iter: 109, cost: 0.115350
+iter: 110, cost: 0.115116
+iter: 111, cost: 0.114967
+iter: 112, cost: 0.114768
+iter: 113, cost: 0.114643
+iter: 114, cost: 0.114465
+iter: 115, cost: 0.114315
+iter: 116, cost: 0.114174
+iter: 117, cost: 0.114042
+iter: 118, cost: 0.113872
+iter: 119, cost: 0.113791
+iter: 120, cost: 0.113567
+iter: 121, cost: 0.113486
+iter: 122, cost: 0.113353
+iter: 123, cost: 0.113240
+iter: 124, cost: 0.113076
+iter: 125, cost: 0.112868
+iter: 126, cost: 0.112768
+iter: 127, cost: 0.112562
+iter: 128, cost: 0.112408
+iter: 129, cost: 0.112205
+iter: 130, cost: 0.112156
+iter: 131, cost: 0.111890
+iter: 132, cost: 0.111782
+iter: 133, cost: 0.111563
+iter: 134, cost: 0.111315
+iter: 135, cost: 0.111185
+iter: 136, cost: 0.111023
+iter: 137, cost: 0.110826
+iter: 138, cost: 0.110708
+iter: 139, cost: 0.110585
+iter: 140, cost: 0.110391
+iter: 141, cost: 0.110230
+iter: 142, cost: 0.110177
+iter: 143, cost: 0.109978
+iter: 144, cost: 0.109965
+iter: 145, cost: 0.109867
+iter: 146, cost: 0.109764
+iter: 147, cost: 0.109678
+iter: 148, cost: 0.109627
+iter: 149, cost: 0.109581
+iter: 150, cost: 0.109500
+iter: 151, cost: 0.109424
+iter: 152, cost: 0.109270
+iter: 153, cost: 0.109134
+iter: 154, cost: 0.108961
+iter: 155, cost: 0.108879
+iter: 156, cost: 0.108733
+iter: 157, cost: 0.108682
+iter: 158, cost: 0.108677
+iter: 159, cost: 0.108465
+iter: 160, cost: 0.108386
+iter: 161, cost: 0.108194
+iter: 162, cost: 0.108032
+iter: 163, cost: 0.107911
+iter: 164, cost: 0.107772
+iter: 165, cost: 0.107590
+iter: 166, cost: 0.107494
+iter: 167, cost: 0.107330
+iter: 168, cost: 0.107261
+iter: 169, cost: 0.107204
+iter: 170, cost: 0.107066
+iter: 171, cost: 0.107027
+iter: 172, cost: 0.106952
+iter: 173, cost: 0.106908
+iter: 174, cost: 0.106869
+iter: 175, cost: 0.106792
+iter: 176, cost: 0.106701
+iter: 177, cost: 0.106590
+iter: 178, cost: 0.106537
+iter: 179, cost: 0.106427
+iter: 180, cost: 0.106342
+iter: 181, cost: 0.106276
+iter: 182, cost: 0.106128
+iter: 183, cost: 0.106132
+iter: 184, cost: 0.105873
+iter: 185, cost: 0.105866
+iter: 186, cost: 0.105659
+iter: 187, cost: 0.105517
+iter: 188, cost: 0.105385
+iter: 189, cost: 0.105305
+iter: 190, cost: 0.105090
+iter: 191, cost: 0.105013
+iter: 192, cost: 0.104899
+iter: 193, cost: 0.104800
+iter: 194, cost: 0.104711
+iter: 195, cost: 0.104581
+iter: 196, cost: 0.104540
+iter: 197, cost: 0.104424
+iter: 198, cost: 0.104338
+iter: 199, cost: 0.104260
+iter: 200, cost: 0.104266
+iter: 201, cost: 0.104236
+iter: 202, cost: 0.104233
+iter: 203, cost: 0.104208
+iter: 204, cost: 0.104263
+iter: 205, cost: 0.104182
+iter: 206, cost: 0.104214
+iter: 207, cost: 0.104101
+iter: 208, cost: 0.104045
+iter: 209, cost: 0.103921
+iter: 210, cost: 0.103810
+iter: 211, cost: 0.103664
+iter: 212, cost: 0.103570
+iter: 213, cost: 0.103452
+iter: 214, cost: 0.103355
+iter: 215, cost: 0.103276
+iter: 216, cost: 0.103163
+iter: 217, cost: 0.103099
+iter: 218, cost: 0.103026
+iter: 219, cost: 0.102967
+iter: 220, cost: 0.102895
+iter: 221, cost: 0.102825
+iter: 222, cost: 0.102777
+iter: 223, cost: 0.102754
+iter: 224, cost: 0.102707
+iter: 225, cost: 0.102625
+iter: 226, cost: 0.102599
+iter: 227, cost: 0.102563
+iter: 228, cost: 0.102514
+iter: 229, cost: 0.102457
+iter: 230, cost: 0.102408
+iter: 231, cost: 0.102328
+iter: 232, cost: 0.102284
+iter: 233, cost: 0.102202
+iter: 234, cost: 0.102138
+iter: 235, cost: 0.102022
+iter: 236, cost: 0.101954
+iter: 237, cost: 0.101828
+iter: 238, cost: 0.101738
+iter: 239, cost: 0.101698
+iter: 240, cost: 0.101633
+iter: 241, cost: 0.101556
+iter: 242, cost: 0.101497
+iter: 243, cost: 0.101384
+iter: 244, cost: 0.101308
+iter: 245, cost: 0.101221
+iter: 246, cost: 0.101208
+iter: 247, cost: 0.101068
+iter: 248, cost: 0.101089
+iter: 249, cost: 0.100964
+iter: 250, cost: 0.100904
+Traceback (most recent call last):
+  File "eval/python/evaluate.py", line 110, in <module>
+    main()
+  File "eval/python/evaluate.py", line 33, in main
+    evaluate_vectors(W_norm, vocab, ivocab)
+  File "eval/python/evaluate.py", line 66, in evaluate_vectors
+    ind1, ind2, ind3, ind4 = indices.T
+ValueError: need more than 0 values to unpack
+BUILDING VOCABULARY
+Processed 551386005 tokens.
+Counted 90551 unique words.
+Truncating vocabulary at min count 5.
+Using vocabulary of size 89751.
+
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 121558869
+overflow length: 380283562
+Reading vocab from file "/media/sonata/MyBook/sec_corpus/1998/vocab_1998.txt"...loaded 89751 words.
+Building lookup table...table contains 631249492 elements.
+Processed 551386005 tokens.
+Writing cooccurrences to disk.........2 files in total.
+Merging cooccurrence files: processed 22155962 lines.
+
+SHUFFLING COOCCURRENCES
+array size: 2550136832
+Shuffling by chunks: processed 22155962 lines.
+Wrote 1 temporary file(s).
+Merging temp files: processed 22155962 lines.
+
+TRAINING MODEL
+Read 22155962 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 89751
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.484105
+iter: 002, cost: 0.381030
+iter: 003, cost: 0.345445
+iter: 004, cost: 0.303731
+iter: 005, cost: 0.270271
+iter: 006, cost: 0.248697
+iter: 007, cost: 0.230314
+iter: 008, cost: 0.218535
+iter: 009, cost: 0.209816
+iter: 010, cost: 0.201148
+iter: 011, cost: 0.194862
+iter: 012, cost: 0.192683
+iter: 013, cost: 0.184668
+iter: 014, cost: 0.180009
+iter: 015, cost: 0.176625
+iter: 016, cost: 0.174392
+iter: 017, cost: 0.171080
+iter: 018, cost: 0.168841
+iter: 019, cost: 0.166406
+iter: 020, cost: 0.164325
+iter: 021, cost: 0.162762
+iter: 022, cost: 0.161787
+iter: 023, cost: 0.160150
+iter: 024, cost: 0.158640
+iter: 025, cost: 0.157623
+iter: 026, cost: 0.156108
+iter: 027, cost: 0.154896
+iter: 028, cost: 0.154059
+iter: 029, cost: 0.153268
+iter: 030, cost: 0.152545
+iter: 031, cost: 0.151561
+iter: 032, cost: 0.150864
+iter: 033, cost: 0.149950
+iter: 034, cost: 0.148992
+iter: 035, cost: 0.148335
+iter: 036, cost: 0.147927
+iter: 037, cost: 0.147181
+iter: 038, cost: 0.146499
+iter: 039, cost: 0.145824
+iter: 040, cost: 0.145190
+iter: 041, cost: 0.144705
+iter: 042, cost: 0.143861
+iter: 043, cost: 0.143283
+iter: 044, cost: 0.142384
+iter: 045, cost: 0.141817
+iter: 046, cost: 0.141311
+iter: 047, cost: 0.140753
+iter: 048, cost: 0.140175
+iter: 049, cost: 0.139472
+iter: 050, cost: 0.138836
+iter: 051, cost: 0.138272
+iter: 052, cost: 0.137699
+iter: 053, cost: 0.137290
+iter: 054, cost: 0.136693
+iter: 055, cost: 0.136229
+iter: 056, cost: 0.135896
+iter: 057, cost: 0.135637
+iter: 058, cost: 0.135373
+iter: 059, cost: 0.134952
+iter: 060, cost: 0.134526
+iter: 061, cost: 0.134244
+iter: 062, cost: 0.133925
+iter: 063, cost: 0.133646
+iter: 064, cost: 0.133292
+iter: 065, cost: 0.132990
+iter: 066, cost: 0.132766
+iter: 067, cost: 0.132135
+iter: 068, cost: 0.131728
+iter: 069, cost: 0.131266
+iter: 070, cost: 0.130831
+iter: 071, cost: 0.130429
+iter: 072, cost: 0.129902
+iter: 073, cost: 0.129575
+iter: 074, cost: 0.129261
+iter: 075, cost: 0.129045
+iter: 076, cost: 0.128749
+iter: 077, cost: 0.128512
+iter: 078, cost: 0.128360
+iter: 079, cost: 0.128076
+iter: 080, cost: 0.127881
+iter: 081, cost: 0.127672
+iter: 082, cost: 0.127499
+iter: 083, cost: 0.127395
+iter: 084, cost: 0.127044
+iter: 085, cost: 0.126889
+iter: 086, cost: 0.126662
+iter: 087, cost: 0.126234
+iter: 088, cost: 0.125991
+iter: 089, cost: 0.125714
+iter: 090, cost: 0.125308
+iter: 091, cost: 0.125139
+iter: 092, cost: 0.124915
+iter: 093, cost: 0.124493
+iter: 094, cost: 0.124243
+iter: 095, cost: 0.123992
+iter: 096, cost: 0.123797
+iter: 097, cost: 0.123510
+iter: 098, cost: 0.123345
+iter: 099, cost: 0.123119
+iter: 100, cost: 0.122992
+iter: 101, cost: 0.122816
+iter: 102, cost: 0.122684
+iter: 103, cost: 0.122569
+iter: 104, cost: 0.122426
+iter: 105, cost: 0.122234
+iter: 106, cost: 0.122094
+iter: 107, cost: 0.121941
+iter: 108, cost: 0.121745
+iter: 109, cost: 0.121604
+iter: 110, cost: 0.121401
+iter: 111, cost: 0.121512
+iter: 112, cost: 0.121144
+iter: 113, cost: 0.120986
+iter: 114, cost: 0.120708
+iter: 115, cost: 0.120369
+iter: 116, cost: 0.120064
+iter: 117, cost: 0.119781
+iter: 118, cost: 0.119532
+iter: 119, cost: 0.119268
+iter: 120, cost: 0.119113
+iter: 121, cost: 0.118954
+iter: 122, cost: 0.118867
+iter: 123, cost: 0.118715
+iter: 124, cost: 0.118614
+iter: 125, cost: 0.118562
+iter: 126, cost: 0.118462
+iter: 127, cost: 0.118474
+iter: 128, cost: 0.118293
+iter: 129, cost: 0.118238
+iter: 130, cost: 0.118058
+iter: 131, cost: 0.117928
+iter: 132, cost: 0.117797
+iter: 133, cost: 0.117629
+iter: 134, cost: 0.117466
+iter: 135, cost: 0.117348
+iter: 136, cost: 0.117216
+iter: 137, cost: 0.117064
+iter: 138, cost: 0.116925
+iter: 139, cost: 0.116796
+iter: 140, cost: 0.116662
+iter: 141, cost: 0.116525
+iter: 142, cost: 0.116416
+iter: 143, cost: 0.116307
+iter: 144, cost: 0.116187
+iter: 145, cost: 0.116070
+iter: 146, cost: 0.115934
+iter: 147, cost: 0.115813
+iter: 148, cost: 0.115686
+iter: 149, cost: 0.115587
+iter: 150, cost: 0.115481
+iter: 151, cost: 0.115421
+iter: 152, cost: 0.115349
+iter: 153, cost: 0.115265
+iter: 154, cost: 0.115162
+iter: 155, cost: 0.115047
+iter: 156, cost: 0.114920
+iter: 157, cost: 0.114786
+iter: 158, cost: 0.114681
+iter: 159, cost: 0.114550
+iter: 160, cost: 0.114432
+iter: 161, cost: 0.114329
+iter: 162, cost: 0.114201
+iter: 163, cost: 0.114105
+iter: 164, cost: 0.114003
+iter: 165, cost: 0.113887
+iter: 166, cost: 0.113775
+iter: 167, cost: 0.113670
+iter: 168, cost: 0.113613
+iter: 169, cost: 0.113521
+iter: 170, cost: 0.113438
+iter: 171, cost: 0.113399
+iter: 172, cost: 0.113305
+iter: 173, cost: 0.113209
+iter: 174, cost: 0.113088
+iter: 175, cost: 0.112924
+iter: 176, cost: 0.112784
+iter: 177, cost: 0.112654
+iter: 178, cost: 0.112592
+iter: 179, cost: 0.112493
+iter: 180, cost: 0.112371
+iter: 181, cost: 0.112297
+iter: 182, cost: 0.112185
+iter: 183, cost: 0.112114
+iter: 184, cost: 0.112041
+iter: 185, cost: 0.111947
+iter: 186, cost: 0.111883
+iter: 187, cost: 0.111794
+iter: 188, cost: 0.111708
+iter: 189, cost: 0.111652
+iter: 190, cost: 0.111555
+iter: 191, cost: 0.111477
+iter: 192, cost: 0.111392
+iter: 193, cost: 0.111287
+iter: 194, cost: 0.111171
+iter: 195, cost: 0.111114
+iter: 196, cost: 0.111039
+iter: 197, cost: 0.110980
+iter: 198, cost: 0.110875
+iter: 199, cost: 0.110788
+iter: 200, cost: 0.110692
+iter: 201, cost: 0.110614
+iter: 202, cost: 0.110506
+iter: 203, cost: 0.110427
+iter: 204, cost: 0.110306
+iter: 205, cost: 0.110229
+iter: 206, cost: 0.110148
+iter: 207, cost: 0.110071
+iter: 208, cost: 0.110020
+iter: 209, cost: 0.109961
+iter: 210, cost: 0.109881
+iter: 211, cost: 0.109772
+iter: 212, cost: 0.109734
+iter: 213, cost: 0.109692
+iter: 214, cost: 0.109650
+iter: 215, cost: 0.109602
+iter: 216, cost: 0.109578
+iter: 217, cost: 0.109498
+iter: 218, cost: 0.109424
+iter: 219, cost: 0.109351
+iter: 220, cost: 0.109285
+iter: 221, cost: 0.109202
+iter: 222, cost: 0.109130
+iter: 223, cost: 0.109039
+iter: 224, cost: 0.108987
+iter: 225, cost: 0.108873
+iter: 226, cost: 0.108790
+iter: 227, cost: 0.108727
+iter: 228, cost: 0.108674
+iter: 229, cost: 0.108573
+iter: 230, cost: 0.108513
+iter: 231, cost: 0.108441
+iter: 232, cost: 0.108363
+iter: 233, cost: 0.108309
+iter: 234, cost: 0.108261
+iter: 235, cost: 0.108220
+iter: 236, cost: 0.108158
+iter: 237, cost: 0.108098
+iter: 238, cost: 0.108028
+iter: 239, cost: 0.107957
+iter: 240, cost: 0.107888
+iter: 241, cost: 0.107820
+iter: 242, cost: 0.107772
+iter: 243, cost: 0.107694
+iter: 244, cost: 0.107639
+iter: 245, cost: 0.107553
+iter: 246, cost: 0.107502
+iter: 247, cost: 0.107432
+iter: 248, cost: 0.107388
+iter: 249, cost: 0.107322
+iter: 250, cost: 0.107305
+Traceback (most recent call last):
+  File "eval/python/evaluate.py", line 110, in <module>
+    main()
+  File "eval/python/evaluate.py", line 33, in main
+    evaluate_vectors(W_norm, vocab, ivocab)
+  File "eval/python/evaluate.py", line 66, in evaluate_vectors
+    ind1, ind2, ind3, ind4 = indices.T
+ValueError: need more than 0 values to unpack
+BUILDING VOCABULARY
+Processed 481605669 tokens.
+Counted 92794 unique words.
+Truncating vocabulary at min count 5.
+Using vocabulary of size 91852.
+
+COUNTING COOCCURRENCES
+window size: 8
+context: symmetric
+max product: 121558869
+overflow length: 380283562
+Reading vocab from file "/media/sonata/MyBook/sec_corpus/1999/vocab_1999.txt"...loaded 91852 words.
+Building lookup table...table contains 636872962 elements.
+Processed 481605669 tokens.
+Writing cooccurrences to disk.........2 files in total.
+Merging cooccurrence files: processed 21608543 lines.
+
+SHUFFLING COOCCURRENCES
+array size: 2550136832
+Shuffling by chunks: processed 21608543 lines.
+Wrote 1 temporary file(s).
+Merging temp files: processed 21608543 lines.
+
+TRAINING MODEL
+Read 21608543 lines.
+Initializing parameters...done.
+vector size: 300
+vocab size: 91852
+x_max: 10.000000
+alpha: 0.750000
+iter: 001, cost: 0.476029
+iter: 002, cost: 0.371370
+iter: 003, cost: 0.334716
+iter: 004, cost: 0.294040
+iter: 005, cost: 0.260815
+iter: 006, cost: 0.238778
+iter: 007, cost: 0.222996
+iter: 008, cost: 0.210564
+iter: 009, cost: 0.201582
+iter: 010, cost: 0.194150
+iter: 011, cost: 0.187914
+iter: 012, cost: 0.182340
+iter: 013, cost: 0.177522
+iter: 014, cost: 0.173996
+iter: 015, cost: 0.170553
+iter: 016, cost: 0.167016
+iter: 017, cost: 0.164499
+iter: 018, cost: 0.162253
+iter: 019, cost: 0.160174
+iter: 020, cost: 0.158054
+iter: 021, cost: 0.156328
+iter: 022, cost: 0.154934
+iter: 023, cost: 0.153654
+iter: 024, cost: 0.152661
+iter: 025, cost: 0.151555
+iter: 026, cost: 0.150395
+iter: 027, cost: 0.149450
+iter: 028, cost: 0.148606
+iter: 029, cost: 0.147838
+iter: 030, cost: 0.147004
+iter: 031, cost: 0.146161
+iter: 032, cost: 0.145282
+iter: 033, cost: 0.144448
+iter: 034, cost: 0.143682
+iter: 035, cost: 0.142762
+iter: 036, cost: 0.141831
+iter: 037, cost: 0.141143
+iter: 038, cost: 0.140332
+iter: 039, cost: 0.139589
+iter: 040, cost: 0.138915
+iter: 041, cost: 0.138235
+iter: 042, cost: 0.137555
+iter: 043, cost: 0.136995
+iter: 044, cost: 0.136503
+iter: 045, cost: 0.135934
+iter: 046, cost: 0.135482
+iter: 047, cost: 0.134987
+iter: 048, cost: 0.134441
+iter: 049, cost: 0.133852
+iter: 050, cost: 0.133415
+iter: 051, cost: 0.132888
+iter: 052, cost: 0.132335
+iter: 053, cost: 0.131910
+iter: 054, cost: 0.131462
+iter: 055, cost: 0.130969
+iter: 056, cost: 0.130459
+iter: 057, cost: 0.130041
+iter: 058, cost: 0.129655
+iter: 059, cost: 0.129281
+iter: 060, cost: 0.128899
+iter: 061, cost: 0.128588
+iter: 062, cost: 0.128198
+iter: 063, cost: 0.127829
+iter: 064, cost: 0.127383
+iter: 065, cost: 0.126969
+iter: 066, cost: 0.126668
+iter: 067, cost: 0.126320
+iter: 068, cost: 0.125979
+iter: 069, cost: 0.125652
+iter: 070, cost: 0.125319
+iter: 071, cost: 0.125050
+iter: 072, cost: 0.124758
+iter: 073, cost: 0.124418
+iter: 074, cost: 0.124073
+iter: 075, cost: 0.123796
+iter: 076, cost: 0.123512
+iter: 077, cost: 0.123169
+iter: 078, cost: 0.122864
+iter: 079, cost: 0.122590
+iter: 080, cost: 0.122284
+iter: 081, cost: 0.122004
+iter: 082, cost: 0.121777
+iter: 083, cost: 0.121518
+iter: 084, cost: 0.121294
+iter: 085, cost: 0.121081
+iter: 086, cost: 0.120813
+iter: 087, cost: 0.120577
+iter: 088, cost: 0.120296
+iter: 089, cost: 0.119987
+iter: 090, cost: 0.119708
+iter: 091, cost: 0.119546
+iter: 092, cost: 0.119324
+iter: 093, cost: 0.119013
+iter: 094, cost: 0.118808
+iter: 095, cost: 0.118594
+iter: 096, cost: 0.118402
+iter: 097, cost: 0.118177
+iter: 098, cost: 0.117995
+iter: 099, cost: 0.117788
+iter: 100, cost: 0.117641
+iter: 101, cost: 0.117403
+iter: 102, cost: 0.117257
+iter: 103, cost: 0.117081
+iter: 104, cost: 0.116866
+iter: 105, cost: 0.116689
+iter: 106, cost: 0.116516
+iter: 107, cost: 0.116280
+iter: 108, cost: 0.116062
+iter: 109, cost: 0.115893
+iter: 110, cost: 0.115717
+iter: 111, cost: 0.115572
+iter: 112, cost: 0.115409
+iter: 113, cost: 0.115303
+iter: 114, cost: 0.115125
+iter: 115, cost: 0.115008
+iter: 116, cost: 0.114849
+iter: 117, cost: 0.114638
+iter: 118, cost: 0.114456
+iter: 119, cost: 0.114319
+iter: 120, cost: 0.114143
+iter: 121, cost: 0.113959
+iter: 122, cost: 0.113801
+iter: 123, cost: 0.113662
+iter: 124, cost: 0.113476
+iter: 125, cost: 0.113323
+iter: 126, cost: 0.113155
+iter: 127, cost: 0.112993
+iter: 128, cost: 0.112871
+iter: 129, cost: 0.112722
+iter: 130, cost: 0.112574
+iter: 131, cost: 0.112421
+iter: 132, cost: 0.112278
+iter: 133, cost: 0.112136
+iter: 134, cost: 0.111994
+iter: 135, cost: 0.111903
+iter: 136, cost: 0.111817
+iter: 137, cost: 0.111687
+iter: 138, cost: 0.111585
+iter: 139, cost: 0.111447
+iter: 140, cost: 0.111348
+iter: 141, cost: 0.111195
+iter: 142, cost: 0.111054
+iter: 143, cost: 0.110987
+iter: 144, cost: 0.110881
+iter: 145, cost: 0.110726
+iter: 146, cost: 0.110579
+iter: 147, cost: 0.110401
+iter: 148, cost: 0.110270
+iter: 149, cost: 0.110140
+iter: 150, cost: 0.109994
+iter: 151, cost: 0.109845
+iter: 152, cost: 0.109734
+iter: 153, cost: 0.109613
+iter: 154, cost: 0.109510
+iter: 155, cost: 0.109445
+iter: 156, cost: 0.109399
+iter: 157, cost: 0.109291
+iter: 158, cost: 0.109184
+iter: 159, cost: 0.109111
+iter: 160, cost: 0.108986
+iter: 161, cost: 0.108906
+iter: 162, cost: 0.108827
+iter: 163, cost: 0.108720
+iter: 164, cost: 0.108642
+iter: 165, cost: 0.108541
+iter: 166, cost: 0.108440
+iter: 167, cost: 0.108315
+iter: 168, cost: 0.108237
+iter: 169, cost: 0.108144
+iter: 170, cost: 0.108019
+iter: 171, cost: 0.107900
+iter: 172, cost: 0.107784
+iter: 173, cost: 0.107672
+iter: 174, cost: 0.107526
+iter: 175, cost: 0.107420
+iter: 176, cost: 0.107316
+iter: 177, cost: 0.107230
+iter: 178, cost: 0.107106
+iter: 179, cost: 0.107021
+iter: 180, cost: 0.106926
+iter: 181, cost: 0.106850
+iter: 182, cost: 0.106758
+iter: 183, cost: 0.106682
+iter: 184, cost: 0.106584
+iter: 185, cost: 0.106523
+iter: 186, cost: 0.106450
+iter: 187, cost: 0.106373
+iter: 188, cost: 0.106272
+iter: 189, cost: 0.106211
+iter: 190, cost: 0.106156
+iter: 191, cost: 0.106113
+iter: 192, cost: 0.106037
+iter: 193, cost: 0.105986
+iter: 194, cost: 0.105934
+iter: 195, cost: 0.105873
+iter: 196, cost: 0.105767
+iter: 197, cost: 0.105691
+iter: 198, cost: 0.105610
+iter: 199, cost: 0.105514
+iter: 200, cost: 0.105425
+iter: 201, cost: 0.105337
+iter: 202, cost: 0.105245
+iter: 203, cost: 0.105177
+iter: 204, cost: 0.105069
+iter: 205, cost: 0.104950
+iter: 206, cost: 0.104894
+iter: 207, cost: 0.104799
+iter: 208, cost: 0.104698
+iter: 209, cost: 0.104619
+iter: 210, cost: 0.104563
+iter: 211, cost: 0.104504
+iter: 212, cost: 0.104457
+iter: 213, cost: 0.104378
+iter: 214, cost: 0.104285
+iter: 215, cost: 0.104195
+iter: 216, cost: 0.104083
+iter: 217, cost: 0.104010
+iter: 218, cost: 0.103942
+iter: 219, cost: 0.103894
+iter: 220, cost: 0.103819
+iter: 221, cost: 0.103775
+iter: 222, cost: 0.103740
+iter: 223, cost: 0.103698
+iter: 224, cost: 0.103680
+iter: 225, cost: 0.103601
+iter: 226, cost: 0.103572
+iter: 227, cost: 0.103510
+iter: 228, cost: 0.103444
+iter: 229, cost: 0.103377
+iter: 230, cost: 0.103292
+iter: 231, cost: 0.103243
+iter: 232, cost: 0.103170
+iter: 233, cost: 0.103092
+iter: 234, cost: 0.103042
+iter: 235, cost: 0.102941
+iter: 236, cost: 0.102893
+iter: 237, cost: 0.102825
+iter: 238, cost: 0.102753
+iter: 239, cost: 0.102696
+iter: 240, cost: 0.102632
+iter: 241, cost: 0.102583
+iter: 242, cost: 0.102537
+iter: 243, cost: 0.102494
+iter: 244, cost: 0.102464
+iter: 245, cost: 0.102412
+iter: 246, cost: 0.102374
+iter: 247, cost: 0.102266
+iter: 248, cost: 0.102173
+iter: 249, cost: 0.102088
+iter: 250, cost: 0.102029
+Traceback (most recent call last):
+  File "eval/python/evaluate.py", line 110, in <module>
+    main()
+  File "eval/python/evaluate.py", line 33, in main
+    evaluate_vectors(W_norm, vocab, ivocab)
+  File "eval/python/evaluate.py", line 66, in evaluate_vectors
+    ind1, ind2, ind3, ind4 = indices.T
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ValueError: need more than 0 values to unpack
